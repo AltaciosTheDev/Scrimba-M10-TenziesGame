@@ -66,7 +66,7 @@ export default function App(){
         // }
     }
     
-    //function that will will allow each specific die to identify and modify itself 
+    //function that will will allow each specific die to identify and modify itself : roll part 2
     function holdDice(id){
         setDice(oldDice => {
             return oldDice.map(oldDie => {
