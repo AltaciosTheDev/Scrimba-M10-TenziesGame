@@ -44,6 +44,7 @@ export default function App(){
         //ternary operator conditional 
         !tenzies ? 
             setDice(oldDice => {
+                //hold die part 3
                  return oldDice.map(oldDie => {
                      return oldDie.isHeld ? oldDie: generateRandomDie()
                  })
